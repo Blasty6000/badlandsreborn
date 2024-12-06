@@ -2,6 +2,8 @@ package net.ivan.badlandsreborn;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.ivan.badlandsreborn.item.ModItemGroups;
+import net.ivan.badlandsreborn.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,8 @@ public class BadlandsReborn implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
