@@ -2,6 +2,7 @@ package net.ivan.badlandsreborn.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.ivan.badlandsreborn.BadlandsReborn;
+import net.ivan.badlandsreborn.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,17 @@ public class ModItemGroups {
                         entries.add(ModItems.LAVA_ESSENCE);
                         entries.add(ModItems.INSTANT_GUNPOWDER);
                         entries.add(ModItems.OBSIDIAN_FRAMGMENT);
+                        entries.add(ModBlocks.AMBER_BLOCK);
+                        entries.add(ModBlocks.CACTUS_PLANKS);
+                        entries.add(ModBlocks.CRACKED_CRIMSON_SHALE_BRICKS);
+                        entries.add(ModBlocks.CRIMSON_SHALE);
+                        entries.add(ModBlocks.CRIMSON_SHALE_BRICKS);
+                        entries.add(ModBlocks.CACTUS_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CACTUS_WOOD);
+                        entries.add(ModBlocks.POLISHED_CRIMSON_SHALE);
+                        entries.add(ModBlocks.CACTUS_LOG);
+                        entries.add(ModBlocks.STRIPPED_CACTUS_LOG);
+                        entries.add(ModBlocks.OBSIDIAN_FRAGMENT_BLOCK);
 
                     })).build());
 

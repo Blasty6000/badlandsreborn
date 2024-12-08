@@ -6,5 +6,19 @@
   "item.badlandsreborn.lava_essence": "Lava Essence",
   "item.badlandsreborn.obsidian_fragment": "Obsidian Fragment",
 
+  "block.badlandsreborn.amber_block": "Amber Block",
+  "block.badlandsreborn.cactus_log": "Cactus Log",
+  "block.badlandsreborn.cactus_planks": "Cactus Planks",
+  "block.badlandsreborn.cactus_wood": "Cactus Wood",
+  "block.badlandsreborn.cracked_crimson_shale_bricks": "Cracked Crimson Shale Bricks",
+  "block.badlandsreborn.crimson_shale": "Crimson Shale",
+  "block.badlandsreborn.crimson_shale_bricks": "Crimson Shale Bricks",
+  "block.badlandsreborn.polished_crimson_shale": "Polished Crimson Shale",
+  "block.badlandsreborn.stripped_cactus_log": "Stripped Cactus Log",
+  "block.badlandsreborn.stripped_cactus_wood": "Stripped Cactus Wood",
+  "block.badlandsreborn.obsidian_fragment_block": "Obsidian Fragment Block",
+
+
+
   "itemgroup.amber": "Badlands Reborn"
 }

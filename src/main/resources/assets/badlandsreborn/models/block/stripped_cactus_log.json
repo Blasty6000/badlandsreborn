@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "badlandsreborn:block/stripped_log_cactus_top",
+    "side": "badlandsreborn:block/stripped_cactus"
+  }
+}

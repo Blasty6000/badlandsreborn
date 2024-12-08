@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "badlandsreborn:block/crimson_shale_bricks"
+  }
+}
