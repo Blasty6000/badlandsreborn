@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "id": "badlandsreborn:crimson_dust",
+    "count": 18
+  }
+}

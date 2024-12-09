@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "badlandsreborn:stripped_cactus_log"
+    }
+  ],
+  "result": {
+    "id": "badlandsreborn:cactus_planks",
+    "count": 4
+  }
+}

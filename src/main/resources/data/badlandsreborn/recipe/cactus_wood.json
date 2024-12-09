@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "badlandsreborn:cactus_log"
+    }
+  },
+  "result": {
+    "id": "badlandsreborn:cactus_wood",
+    "count": 3
+  }
+}

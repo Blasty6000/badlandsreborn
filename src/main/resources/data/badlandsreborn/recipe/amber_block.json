@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": ""
+    }
+  ],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "badlandsreborn:amber"
+    }
+  },
+  "result": {
+    "id": "badlandsreborn:amber_block",
+    "count": 1
+  }
+}

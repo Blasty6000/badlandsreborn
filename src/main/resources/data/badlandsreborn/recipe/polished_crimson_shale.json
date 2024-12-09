@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "badlandsreborn:crimson_shale_bricks"
+    }
+  },
+  "result": {
+    "id": "badlandsreborn:polished_crimson_shale",
+    "count": 4
+  }
+}

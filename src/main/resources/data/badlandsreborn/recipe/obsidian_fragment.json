@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "badlandsreborn:obsidian_fragment_block"
+    }
+  ],
+  "result": {
+    "id": "badlandsreborn:obsidian_fragment",
+    "count": 9
+  }
+}

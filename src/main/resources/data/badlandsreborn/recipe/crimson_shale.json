@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "badlandsreborn:crimson_dust"
+    }
+  },
+  "result": {
+    "id": "badlandsreborn:crimson_shale",
+    "count": 1
+  }
+}

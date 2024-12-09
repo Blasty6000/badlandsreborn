@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "badlandsreborn:amber_block"
+    }
+  ],
+  "result": {
+    "id": "badlandsreborn:amber",
+    "count": 9
+  }
+}
