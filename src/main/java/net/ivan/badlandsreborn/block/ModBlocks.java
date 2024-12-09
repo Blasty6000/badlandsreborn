@@ -13,43 +13,48 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
     public static final Block CACTUS_PLANKS = registerBlock("cactus_planks",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()
+                    .strength(2.0f, 2.0f)));
 
     public static final Block CACTUS_WOOD = registerBlock("cactus_wood",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()
+                    .strength(2.0f, 2.0f)));
 
     public static final Block CACTUS_LOG = registerBlock("cactus_log",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()
+                    .strength(2.0f, 2.0f)));
 
     public static final Block STRIPPED_CACTUS_WOOD = registerBlock("stripped_cactus_wood",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()
+                    .strength(2.0f, 2.0f)));
 
     public static final Block STRIPPED_CACTUS_LOG = registerBlock("stripped_cactus_log",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()));
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.BAMBOO_WOOD).burnable()
+                    .strength(2.0f, 2.0f)));
 
     public static final Block AMBER_BLOCK = registerBlock("amber_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK).luminance(state -> 7)
-                    .strength(4f).requiresTool()));
+                    .strength(3.0f, 6.0f).requiresTool()));
 
     public static final Block CRACKED_CRIMSON_SHALE_BRICKS = registerBlock("cracked_crimson_shale_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
-                    .strength(4f).requiresTool()));
+                    .strength(1.5f, 6.0f).requiresTool()));
 
     public static final Block CRIMSON_SHALE = registerBlock("crimson_shale",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
-                    .strength(4f).requiresTool()));
+                    .strength(1.5f, 6.0f).requiresTool()));
 
     public static final Block CRIMSON_SHALE_BRICKS = registerBlock("crimson_shale_bricks",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)
-                    .strength(4f).requiresTool()));
+                    .strength(1.5f, 6.0f).requiresTool()));
 
     public static final Block POLISHED_CRIMSON_SHALE = registerBlock("polished_crimson_shale",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.POLISHED_DEEPSLATE)
-                    .strength(4f).requiresTool()));
+                    .strength(1.5f, 6.0f).requiresTool()));
 
         public static final Block OBSIDIAN_FRAGMENT_BLOCK = registerBlock("obsidian_fragment_block",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_CLUSTER)
-                    .strength(4f).requiresTool()));
+                    .strength(50f, 1200f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

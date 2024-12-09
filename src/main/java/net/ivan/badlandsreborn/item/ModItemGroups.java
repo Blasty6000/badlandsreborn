@@ -16,7 +16,6 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.amber"))
                     .icon(() -> new ItemStack(ModItems.AMBER)).entries(((displayContext, entries) -> {
                         entries.add(ModItems.AMBER);
-                        entries.add(ModItems.CRIMSON_DUST);
                         entries.add(ModItems.FOSSILISED_ARTEFACT);
                         entries.add(ModItems.LAVA_ESSENCE);
                         entries.add(ModItems.INSTANT_GUNPOWDER);

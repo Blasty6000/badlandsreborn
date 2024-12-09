@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "badlandsreborn:item/crimson_dust"
-  }
-}
